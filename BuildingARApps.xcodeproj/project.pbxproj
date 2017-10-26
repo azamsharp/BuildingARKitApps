@@ -13,6 +13,15 @@
 		346A44191FA238730009EC9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 346A44171FA238730009EC9A /* Main.storyboard */; };
 		346A441B1FA238730009EC9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 346A441A1FA238730009EC9A /* Assets.xcassets */; };
 		346A441E1FA238730009EC9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 346A441C1FA238730009EC9A /* LaunchScreen.storyboard */; };
+		346A44261FA238DF0009EC9A /* Plane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346A44251FA238DF0009EC9A /* Plane.swift */; };
+		346A44281FA238FF0009EC9A /* overlay_grid.png in Resources */ = {isa = PBXBuildFile; fileRef = 346A44271FA238FF0009EC9A /* overlay_grid.png */; };
+		346A442A1FA239960009EC9A /* brick-texture.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 346A44291FA239900009EC9A /* brick-texture.jpg */; };
+		346A442D1FA23A030009EC9A /* earth.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 346A442C1FA239FE0009EC9A /* earth.jpg */; };
+		346A442E1FA23A060009EC9A /* jupiter.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 346A442B1FA239FD0009EC9A /* jupiter.jpg */; };
+		346A44301FA23F900009EC9A /* fish.dae in Resources */ = {isa = PBXBuildFile; fileRef = 346A442F1FA23F900009EC9A /* fish.dae */; };
+		346A44331FA262DF0009EC9A /* materials.mtl in Resources */ = {isa = PBXBuildFile; fileRef = 346A44321FA262DD0009EC9A /* materials.mtl */; };
+		346A44341FA262E40009EC9A /* model.obj in Resources */ = {isa = PBXBuildFile; fileRef = 346A44311FA262DC0009EC9A /* model.obj */; };
+		346A44361FA263660009EC9A /* tv.dae in Resources */ = {isa = PBXBuildFile; fileRef = 346A44351FA263660009EC9A /* tv.dae */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +33,15 @@
 		346A441A1FA238730009EC9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		346A441D1FA238730009EC9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		346A441F1FA238730009EC9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		346A44251FA238DF0009EC9A /* Plane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plane.swift; sourceTree = "<group>"; };
+		346A44271FA238FF0009EC9A /* overlay_grid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = overlay_grid.png; sourceTree = "<group>"; };
+		346A44291FA239900009EC9A /* brick-texture.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "brick-texture.jpg"; sourceTree = "<group>"; };
+		346A442B1FA239FD0009EC9A /* jupiter.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jupiter.jpg; sourceTree = "<group>"; };
+		346A442C1FA239FE0009EC9A /* earth.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = earth.jpg; sourceTree = "<group>"; };
+		346A442F1FA23F900009EC9A /* fish.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = fish.dae; sourceTree = "<group>"; };
+		346A44311FA262DC0009EC9A /* model.obj */ = {isa = PBXFileReference; lastKnownFileType = text; path = model.obj; sourceTree = "<group>"; };
+		346A44321FA262DD0009EC9A /* materials.mtl */ = {isa = PBXFileReference; lastKnownFileType = text; path = materials.mtl; sourceTree = "<group>"; };
+		346A44351FA263660009EC9A /* tv.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = tv.dae; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +74,22 @@
 		346A44101FA238730009EC9A /* BuildingARApps */ = {
 			isa = PBXGroup;
 			children = (
+				346A44351FA263660009EC9A /* tv.dae */,
+				346A442F1FA23F900009EC9A /* fish.dae */,
+				346A44271FA238FF0009EC9A /* overlay_grid.png */,
+				346A44291FA239900009EC9A /* brick-texture.jpg */,
+				346A442C1FA239FE0009EC9A /* earth.jpg */,
+				346A442B1FA239FD0009EC9A /* jupiter.jpg */,
 				346A44111FA238730009EC9A /* AppDelegate.swift */,
 				346A44131FA238730009EC9A /* art.scnassets */,
 				346A44151FA238730009EC9A /* ViewController.swift */,
 				346A44171FA238730009EC9A /* Main.storyboard */,
+				346A44321FA262DD0009EC9A /* materials.mtl */,
+				346A44311FA262DC0009EC9A /* model.obj */,
 				346A441A1FA238730009EC9A /* Assets.xcassets */,
 				346A441C1FA238730009EC9A /* LaunchScreen.storyboard */,
 				346A441F1FA238730009EC9A /* Info.plist */,
+				346A44251FA238DF0009EC9A /* Plane.swift */,
 			);
 			path = BuildingARApps;
 			sourceTree = "<group>";
@@ -126,8 +153,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				346A44361FA263660009EC9A /* tv.dae in Resources */,
+				346A44331FA262DF0009EC9A /* materials.mtl in Resources */,
+				346A44341FA262E40009EC9A /* model.obj in Resources */,
 				346A44141FA238730009EC9A /* art.scnassets in Resources */,
+				346A44281FA238FF0009EC9A /* overlay_grid.png in Resources */,
 				346A441E1FA238730009EC9A /* LaunchScreen.storyboard in Resources */,
+				346A44301FA23F900009EC9A /* fish.dae in Resources */,
+				346A442D1FA23A030009EC9A /* earth.jpg in Resources */,
+				346A442A1FA239960009EC9A /* brick-texture.jpg in Resources */,
+				346A442E1FA23A060009EC9A /* jupiter.jpg in Resources */,
 				346A441B1FA238730009EC9A /* Assets.xcassets in Resources */,
 				346A44191FA238730009EC9A /* Main.storyboard in Resources */,
 			);
@@ -141,6 +176,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				346A44161FA238730009EC9A /* ViewController.swift in Sources */,
+				346A44261FA238DF0009EC9A /* Plane.swift in Sources */,
 				346A44121FA238730009EC9A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
